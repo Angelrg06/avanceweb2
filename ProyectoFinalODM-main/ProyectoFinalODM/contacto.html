@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contacto</title>
+    <link rel="stylesheet" href="Css/styles.css">
+
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="header">
+
+        <div class="menu container">
+            <!--  <a href="#" class="logo">Logo</a> -->
+            <input type="checkbox" id="menuToggle" class="menu-toggle" />
+            <label for="menuToggle" class="menu-icon">
+                <img src="img/menu.png" alt="Menú" />
+            </label>
+
+            <p class="menu-links">
+                <a href="index.html" class="menu-link">Inicio</a>
+                <a href="servicios.html" class="menu-link">Servicios</a>
+                <a href="nosotros.html" class="menu-link">Nosotros</a>
+                <a href="contacto.html" class="menu-link">Contacto</a>
+                <a href="login.html" class="menu-link">Login</a>
+            </p>
+        </div>
+
+    </header>
+    <main>
+        <h2>Contactanos</h2>
+        <form action="#" class="form-container">
+
+            <div class="form-group">
+                <label for="nombre">Nombres</label>
+                <input type="text" id="nombre" name="nombre" required>
+            </div>
+
+            <div class="form-group">
+                <label for="apellido">Apellidos</label>
+                <input type="text" id="apellido" name="apellido" required>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Correo Electronico</label>
+                <input type="email" id="email" name="email" required placeholder="ejemplo@mail.com">
+            </div>
+
+
+            <div class="form-group">
+                <label for="telefono">Numero telefonico</label>
+                <input type="number" id="telefono" name="telefono" required>
+            </div>
+
+            <div class="form-group">
+                <label for="dni">DNI</label>
+                <input type="text" id="dni" name="dni" pattern="[0-9]{8}" maxlength="8" required>
+            </div>
+
+            <div class="form-group">
+                <label for="sexo">Sexo</label>
+                <div class="radio-group">
+                    <input type="radio" id="femenino" name="sexo" value="femenino" required>
+                    <label for="femenino">Femenino</label>
+                    <input type="radio" id="masculino" name="sexo" value="masculino" required>
+                    <label for="masculino">Masculino</label>
+                    <input type="radio" id="otros" name="sexo" value="otros" required>
+                    <label for="otros">Otros</label>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="comentario">Comentarios</label>
+                <textarea name="comentario" id="comentario" class="textarea"></textarea>
+            </div>
+
+            <div class="form-group">
+                <input type="submit" value="Enviar" class="btn-1">
+            </div>
+        </form>
+
+        
+        <div class="bg-img">
+            <table>
+                <thead>
+                    <tr>
+                        <th colspan="2">Información de contacto</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Teléfono:</strong></td>
+                        <td>+51 986650130</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Email:</strong></td>
+                        <td>contacto@odmdental.com</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Dirección:</strong></td>
+                        <td>Av proceres de independencia 1838. 2do piso, Lima, Peru</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">Nuestro horario de atención es de lunes a viernes de 9:00 AM a 6:00 PM.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+
+            <!-- Copyright -->
+            <div class="footer-links">
+                <p>
+                    <a href="">Políticas y términos</a>
+                    <a href="">Preguntas</a>
+                    <a href="">Canal de Whatsapp</a>
+                    <a href="">Facebook</a>
+                </p>
+            </div>
+            <div class="footer-copy">
+                © 2025 ODM Dental Studio. Lima, Perú.
+            </div>
+
+        </div>
+
+    </footer>
+</body>
+
+</html>

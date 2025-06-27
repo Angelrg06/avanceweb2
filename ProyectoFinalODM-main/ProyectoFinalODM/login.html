@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="menu container">
+            <!--  <a href="#" class="logo">Logo</a> -->
+            <input type="checkbox" id="menuToggle" class="menu-toggle" />
+            <label for="menuToggle" class="menu-icon">
+                <img src="img/menu.png" alt="Menú" />
+            </label>
+
+            <p class="menu-links">
+                <a href="index.html" class="menu-link">Inicio</a>
+                <a href="servicios.html" class="menu-link">Servicios</a>
+                <a href="nosotros.html" class="menu-link">Nosotros</a>
+                <a href="contacto.html" class="menu-link">Contacto</a>
+                <a href="login.html" class="menu-link">Login</a>
+            </p>
+        </div>
+
+
+        <!---->
+        <div class="header-content container">
+            <h1 class="header-title">ODM Dental Studio</h1>
+            <p class="header-description">
+                ODM Dental Studio es una cadena de clínicas dentales con más de 10 años de experiencia en el Perú,
+                dedicada a brindar atención odontológica integral y de calidad. Contamos con un equipo de especialistas
+                altamente capacitados y tecnología de vanguardia para ofrecer tratamientos personalizados que se adaptan
+                a las necesidades de cada paciente.​  
+                Nuestra misión es mejorar la salud bucal y la estética dental de nuestros pacientes, proporcionando un
+                servicio profesional en un ambiente cómodo y seguro. Ofrecemos una amplia gama de servicios, incluyendo
+                ortodoncia, rehabilitación oral, periodoncia, endodoncia, implantología, odontopediatría, estética y
+                cirugía oral
+            </p>
+            
+        </div>
+    </header>
+    <h2>Iniciar Sesión</h2>
+
+
+    <form id="loginForm" class="form-container">
+        <div class="form-group">
+            <label for="correo">Correo:</label>
+            <input type="email" id="correo" name="correo" required>
+        </div>
+    
+        <div class="form-group">
+            <label for="contrasena">Contraseña:</label>
+            <input type="password" id="contrasena" name="contrasena" required>
+        </div>
+    
+        <div class="form-group" class="btn-1">
+            <button type="submit" id="btnIniciar" class="btn-1">Iniciar Sesión</button>
+        </div>
+    </form>
+    
+
+
+    <footer class="footer">
+        <div class="footer-content">
+
+            <!-- Copyright -->
+            <div class="footer-links">
+                <p>
+                    <a href="">Políticas y terminos</a>
+                    <a href="">Preguntas</a>
+                    <a href="">Canal de Whatsapp</a>
+                    <a href="">Facebook</a>
+                </p>
+            </div>
+            <div class="footer-copy">
+                © 2025 ODM Dental Studio. Lima, Perú.
+            </div>
+
+        </div>
+
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
